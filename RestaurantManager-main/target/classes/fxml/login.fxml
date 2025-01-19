@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <left>
+      <AnchorPane prefHeight="650.0" prefWidth="516.0" style="-fx-background-color: #8A2BE2;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="188.0" fitWidth="226.0" layoutX="105.0" layoutY="227.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/food-delivery.png" />
+               </image></ImageView>
+         </children>
+      </AnchorPane>
+   </left>
+   <right>
+      <AnchorPane prefHeight="650.0" prefWidth="420.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextField layoutX="26.0" layoutY="234.0" prefHeight="30.0" prefWidth="225.0" promptText="Username" style="-fx-background-color: transparent; -fx-border-color: #a23dd1; -fx-border-width: 0px 0px 2px 0px;" />
+            <PasswordField layoutX="26.0" layoutY="342.0" prefHeight="28.0" prefWidth="226.0" promptText="password" style="-fx-background-color: transparent; -fx-border-color: #a23dd1; -fx-border-width: 0px 0px 2px 0px;" />
+            <TextField layoutX="26.0" layoutY="285.0" prefHeight="28.0" prefWidth="227.0" promptText="Email" style="-fx-background-color: transparent; -fx-border-color: #a23dd1; -fx-border-width: 0px 0px 2px 0px;" />
+            <Label layoutX="16.0" layoutY="90.0" prefHeight="114.0" prefWidth="284.0" text="𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐓𝐨 𝐋𝐨𝐠𝐢𝐧 𝐏𝐚𝐠𝐞" textFill="BLUEVIOLET">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="151.0" layoutY="377.0" prefHeight="18.0" prefWidth="126.0" text="forgot password?">
+               <graphic>
+                  <HBox prefHeight="100.0" prefWidth="200.0" />
+               </graphic></Label>
+            <ButtonBar layoutX="35.0" layoutY="429.0" prefHeight="40.0" prefWidth="214.0">
+               <buttons>
+                  <Button mnemonicParsing="false" prefHeight="40.0" prefWidth="224.0" style="-fx-background-color: tomato; -fx-background-radius: 25; -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 10, 0, 0, 5); -fx-font-weight: bold;" text="Login">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Button>
+               </buttons>
+            </ButtonBar>
+         </children>
+      </AnchorPane>
+   </right>
+</BorderPane>
