@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.TextField?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="710.0" prefWidth="895.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxml.SignUp">
+   <children>
+      <ImageView fitHeight="318.0" fitWidth="709.0" layoutX="91.0" layoutY="34.0">
+         <image>
+            <Image url="@../../../../../../Food-Delivery-1.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="73.0" layoutY="367.0" prefHeight="20.0" prefWidth="94.0" text="Your name:" textFill="TOMATO">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <PasswordField layoutX="393.0" layoutY="390.0" prefHeight="34.0" prefWidth="297.0" promptText="Last name" style="-fx-effect: dropshed; -fx-font-weight: bold;" />
+      <PasswordField layoutX="67.0" layoutY="453.0" prefHeight="34.0" prefWidth="258.0" promptText="01#########" style="-fx-effect: dropshed; -fx-font-weight: bold;" />
+      <PasswordField layoutX="393.0" layoutY="453.0" prefHeight="34.0" prefWidth="298.0" promptText="Email" style="-fx-effect: dropshed; -fx-font-weight: bold;" />
+      <Label layoutX="70.0" layoutY="435.0" prefHeight="6.0" prefWidth="104.0" text="Phone number:" />
+      <Label layoutX="394.0" layoutY="433.0" prefHeight="18.0" prefWidth="94.0" text="E-mail address:" />
+      <Label layoutX="67.0" layoutY="510.0" prefHeight="18.0" prefWidth="79.0" text="Address:" />
+      <PasswordField layoutX="67.0" layoutY="533.0" prefHeight="34.0" prefWidth="764.0" promptText="Street address" style="-fx-effect: dropshed; -fx-font-weight: bold;" />
+      <PasswordField layoutX="67.0" layoutY="580.0" prefHeight="34.0" prefWidth="244.0" promptText="City" style="-fx-effect: dropshed; -fx-font-weight: bold;" />
+      <PasswordField layoutX="340.0" layoutY="580.0" prefHeight="34.0" prefWidth="298.0" promptText="Region" style="-fx-effect: dropshed; -fx-font-weight: bold;" />
+      <PasswordField layoutX="67.0" layoutY="627.0" prefHeight="34.0" prefWidth="274.0" promptText="Postal/Zip code" style="-fx-effect: dropshed; -fx-font-weight: bold;" />
+      <Button layoutX="367.0" layoutY="661.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="250.0" style="-fx-background-color: tomato; -fx-effect: dropshed; -fx-font-weight: bold;" text="Sign up" />
+      <TextField floatText="First name" layoutX="71.0" layoutY="388.0" prefHeight="25.0" prefWidth="250.0" />
+   </children>
+</AnchorPane>
