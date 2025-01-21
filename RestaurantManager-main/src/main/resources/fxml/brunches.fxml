@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="699.0" prefWidth="867.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxml.Brunches">
+   <children>
+      <ImageView fitHeight="177.0" fitWidth="200.0" layoutX="92.0" layoutY="51.0">
+         <image>
+            <Image url="@../../../../../../../OneDrive/Pictures/Screenshots/pathapath.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="177.0" fitWidth="200.0" layoutX="332.0" layoutY="49.0">
+         <image>
+            <Image url="@../../../../../../../OneDrive/Pictures/Screenshots/dhanmondi.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="177.0" fitWidth="200.0" layoutX="579.0" layoutY="50.0">
+         <image>
+            <Image url="@../../../../../../../OneDrive/Pictures/Screenshots/kalabagan.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="100.0" layoutY="-1.0" prefHeight="37.0" prefWidth="178.0" text="150 Green Road (Panthapath">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="100.0" layoutY="21.0" prefHeight="38.0" prefWidth="166.0" text="Signal), Panthapath, Dhaka">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="338.0" layoutY="5.0" prefHeight="20.0" prefWidth="188.0" text="Dhanmondi Plaza Shopping">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="338.0" layoutY="23.0" prefHeight="26.0" prefWidth="202.0" text="Complex, Shop#110, 18/A (New)">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="585.0" layoutY="-2.0" prefHeight="38.0" prefWidth="182.0" text="166/A Lake Circus, Kolabagan">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="585.0" layoutY="32.0" text="(Dolphin Goli), Dhaka-1205">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="177.0" fitWidth="202.0" layoutX="90.0" layoutY="274.0">
+         <image>
+            <Image url="@../../../../../../../OneDrive/Pictures/Screenshots/uttara.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="94.0" layoutY="225.0" prefHeight="38.0" prefWidth="168.0" text="Plot 1/M, Road 7, Sector 7">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="94.0" layoutY="253.0" prefHeight="20.0" prefWidth="126.0" text="Uttara, Dhaka-1230">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="177.0" fitWidth="210.0" layoutX="324.0" layoutY="276.0">
+         <image>
+            <Image url="@../../../../../../../OneDrive/Pictures/Screenshots/basundhara.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="332.0" layoutY="236.0" text="KA 24/4 Sarker Market,">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="332.0" layoutY="255.0" text="Bashundhara, Dhaka-1229">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="170.0" fitWidth="210.0" layoutX="585.0" layoutY="277.0">
+         <image>
+            <Image url="@../images/wari.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="590.0" layoutY="230.0" prefHeight="26.0" prefWidth="162.0" text="31/B Rankin Street, Wari,">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="590.0" layoutY="255.0" text="Dhaka-1203">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="160.0" fitWidth="202.0" layoutX="91.0" layoutY="492.0">
+         <image>
+            <Image url="@../../../../../../../OneDrive/Pictures/Screenshots/bonosree.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="94.0" layoutY="453.0" text="House 35 Road 2, Block C,">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="94.0" layoutY="473.0" text="Bonosree, Rampura, Dhaka--1219">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="160.0" fitWidth="208.0" layoutX="329.0" layoutY="492.0">
+         <image>
+            <Image url="@../../../../../../../OneDrive/Pictures/Screenshots/gulshan.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="329.0" layoutY="454.0" text="ka-74, Shahazadpur(Jhilpaar),">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="332.0" layoutY="474.0" text="Gulshan, Dhaka 1212.">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="160.0" fitWidth="208.0" layoutX="587.0" layoutY="488.0">
+         <image>
+            <Image url="@../../../../../../../OneDrive/Pictures/Screenshots/mirpur.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="585.0" layoutY="446.0" prefHeight="26.0" prefWidth="258.0" text="Holding #598/3, Shop No #3 (Ground Floor) ECB" />
+      <Label layoutX="585.0" layoutY="465.0" text="Circle, Mirpur DOHS Road, Dhaka Shenanibash" />
+      <Label layoutX="39.0" layoutY="668.0" prefHeight="20.0" prefWidth="805.0" text="At Present, we have 30 outlets in Dhaka city and are ready to take your orders and provide you the best food for your special days.">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
